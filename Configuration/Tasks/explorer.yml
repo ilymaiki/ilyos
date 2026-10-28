@@ -1,0 +1,28 @@
+title: File Explorer
+
+actions:
+    # Abrir el Explorador en "Este equipo"
+  - !registryValue: {
+      path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced',
+      value: 'LaunchTo',
+      type: REG_DWORD,
+      data: '1'
+  }
+
+    # Vista compacta
+  - !registryValue: {
+      path: 'HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced',
+      value: 'UseCompactMode',
+      type: REG_DWORD, data: '1'
+  }
+
+    # Panel de vista previa activado
+  - !powerShell:
+    command: |
+      reg add 'HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Modules\GlobalSettings\DetailsContainer' /v DetailsContainer /t REG_BINARY /d 0200000001000000 /f
+      reg add 'HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Modules\GlobalSettings\Sizer' /v DetailsContainerSizer /t REG_BINARY /d 150100000100000000000000c0030000 /f
+    wait: true
+
+    # Reiniciar el Explorador para aplicar los cambios
+  - !taskKill: { name: 'explorer' }
+  - !run: { exe: 'explorer.exe', runas: 'currentUser', wait: false }

@@ -1,0 +1,21 @@
+# IDE files (JetBrains / VS Code)
+.idea/
+.vscode/
+*.iml
+
+# Packaged playbooks (generated, no need to upload)
+*.apbx
+*.zip
+
+# Assistant binaries (AME Wizard and similar are downloaded, don't go into the repo)
+AME*.exe
+*.exe
+
+# Atlas build tooling artifacts
+7zFiles.txt
+
+# System junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
