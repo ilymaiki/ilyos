@@ -1,12 +1,12 @@
 title: APPX Removal
 
 actions:
-    # Remove Microsoft Store (APPX) apps
+    # Remove Microsoft Store (APPX) apps - Quitar las aplicaciones APPX de Microsoft Store
   - !appx: {name: '*disney*', type: family}
   - !appx: {name: '*PowerAutomate*', type: family}
   - !appx: {name: '*MicrosoftTeams*', type: family}
 
-    # OneDrive (aplicación Win32, no APPX: se desinstala con su instalador silencioso)
+    # OneDrive (Win32 app, not APPX: uninstalled with its own silent installer) - OneDrive (aplicación Win32, no APPX: se desinstala con su instalador silencioso)
   - !powerShell:
     command: |
       $setup = "$env:SystemRoot\System32\OneDriveSetup.exe"
@@ -17,8 +17,7 @@ actions:
       }
     wait: true
 
-    # Necessary to refresh start menu entries etc.
+    # Needed to refresh Start menu entries, etc. - Necesario para refrescar las entradas del menú Inicio, etc.
   - !appx: {name: '*Client.CBS*', operation: clearCache}
   - !appx: {name: '*StartMenuExperienceHost*', operation: clearCache}
   - !appx: {name: '*Windows.Search*', operation: clearCache}
-
