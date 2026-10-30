@@ -28,7 +28,7 @@ Si 5 personas usan este sistema y les mola, me doy por satisfecho; si lo usan mi
 ## Licencia
 Copyright © Dani (@ilymaiki). Todos los derechos reservados.
 
-Este proyecto es personal: solo lo desarrollo y mantengo yo. Está publicado en abierto únicamente para que se pueda leer cómo funciona y para que AME Wizard pueda ejecutarlo — **no se permite** copiarlo, modificarlo, redistribuirlo ni incluirlo, total o parcialmente, en otro playbook o proyecto sin mi permiso explícito.
-Todo el contenido generado por mí (incluidos los wallpapers e imágenes de `Images/`) es obra propia, desde cero, y está sujeto a los mismos términos.
+Este proyecto es personal: solo lo desarrollo y mantengo yo. Lo que ves aquí es la cara pública del proyecto (documentación e información); el código del playbook no está expuesto en el repositorio — **no se permite** copiarlo, modificarlo, redistribuirlo ni incluirlo, total o parcialmente, en otro playbook o proyecto sin mi permiso explícito.
+Todo el contenido del playbook, incluidos los wallpapers e imágenes, es obra propia creada desde cero, y está sujeto a los mismos términos.
 
 
