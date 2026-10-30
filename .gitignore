@@ -1,27 +1,24 @@
-# IDE files (JetBrains / VS Code)
+# Archivos de IDE (JetBrains / VS Code)
 .idea/
 .vscode/
 *.iml
 
-# Packaged playbooks (generated, no need to upload)
+# Playbooks empaquetados (generados, no hace falta subirlos)
 *.apbx
 *.zip
 
-# Assistant binaries (AME Wizard and similar are downloaded, don't go into the repo)
+# Binarios del asistente (AME Wizard y similares se descargan, no van al repo)
 AME*.exe
 *.exe
 
-# Atlas build tooling artifacts
+# Restos de las herramientas de build de Atlas
 7zFiles.txt
 
-# System junk
+# Basura del sistema
 Thumbs.db
 Desktop.ini
 .DS_Store
 *.log
 
-# Private: playbooks code, personal notes and local resources (they ship inside the .apbx)
-configuration/
+# Personal: notas privadas (van dentro del .apbx, no en el repo)
 docs/
-executables/
-images/

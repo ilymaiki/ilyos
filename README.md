@@ -1,5 +1,3 @@
-# ilyOS
-
 ## ¿Qué es ilyOS?
 
 ilyOS no es un Windows químicamente limpio. ilyOS es la configuración que uso a diario, empaquetada en un playbook de AME Wizard y lista para aplicar.
@@ -26,9 +24,14 @@ Si 5 personas usan este sistema y les mola, me doy por satisfecho; si lo usan mi
 3. Arrastra el playbook a la ventana, ejecuta, sigue las instrucciones de instalación y listo.
 
 ## Licencia
-Copyright © Dani (@ilymaiki). Todos los derechos reservados.
 
-Este proyecto es personal: solo lo desarrollo y mantengo yo. Lo que ves aquí es la cara pública del proyecto (documentación e información); el código del playbook no está expuesto en el repositorio — **no se permite** copiarlo, modificarlo, redistribuirlo ni incluirlo, total o parcialmente, en otro playbook o proyecto sin mi permiso explícito.
-Todo el contenido del playbook, incluidos los wallpapers e imágenes, es obra propia creada desde cero, y está sujeto a los mismos términos.
+ilyOS es un proyecto open source, con licencia [MIT](LICENSE).
+
+- **Puedes** ver, copiar, modificar y usar el código (y los wallpapers e imágenes) libremente, incluso en proyectos privados o personales.
+- Si lanzas al público algo basado en ilyOS (otro playbook, una variación, un fork...), **debes darme créditos**: menciona a Daniel (@ilymaiki), enlaza al repositorio original y no uses mi nombre ni el nombre "ilyOS" para dar a entender que yo respaldo tu variación.
+- Todo el contenido del playbook, incluidos los wallpapers e imágenes, es obra propia creada desde cero, y está sujeto a los mismos términos.
+
+Si vas a basar tu proyecto en ilyOS, ¡me encantaría verlo!. Publica el código de tu variación y, cuando lo lances, avísame — me hace ilusión ver en qué lo convertís por que fijo que sois más expertos que yo;  
+yo solo soy un colgado que estudia Desarrollo Web y le mola personalizar Windows.
 
 
