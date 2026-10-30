@@ -19,3 +19,9 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 *.log
+
+# Private: playbooks code, personal notes and local resources (they ship inside the .apbx)
+configuration/
+docs/
+executables/
+images/
