@@ -1,8 +1,8 @@
 title: Registry Edits
 
 actions:
-    #
+    # Desactivar Informe de errores de Windows - Disable Windows Error Reporting
   - !registryValue: {path: 'HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting', value: 'Disabled', type:  REG_DWORD, data: '1'}
 
-    #
+    # Ocultar el botón de Vista de tareas - Hide the Task View button
   - !registryValue: {path: 'HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced', value: 'ShowTaskViewButton', type: REG_DWORD, data: '0'}

@@ -2,23 +2,12 @@ title: APPX Removal
 
 actions:
 
-  #
+  # Desinstalar apps preinstaladas de la familia - Uninstall preinstalled family apps
   - !appx: {name: '*disney*', type: family}
   - !appx: {name: '*PowerAutomate*', type: family}
   - !appx: {name: '*MicrosoftTeams*', type: family}
 
-  #
-  - !powerShell:
-    command: |
-      $setup = "$env:SystemRoot\System32\OneDriveSetup.exe"
-      if (!(Test-Path $setup)) { $setup = "$env:LocalAppData\Microsoft\OneDrive\OneDriveSetup.exe" }
-      if (Test-Path $setup) {
-        Stop-Process -Name OneDrive -Force -ErrorAction SilentlyContinue
-        & $setup /uninstall | Out-Null
-      }
-    wait: true
-
-  #
+  # Vaciar la caché de componentes del sistema - Clear system component caches
   - !appx: {name: '*Client.CBS*', operation: clearCache}
   - !appx: {name: '*StartMenuExperienceHost*', operation: clearCache}
   - !appx: {name: '*Windows.Search*', operation: clearCache}

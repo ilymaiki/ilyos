@@ -9,6 +9,3 @@ actions:
 
 - !writeStatus: {status: 'Configurando el Explorador de Archivos'}
 - !task: {path: 'Tasks/explorer.yml'}
-
-- !writeStatus: {status: 'Personalizando el sistema'}
-- !task: {path: 'Tasks/theme.yml'}
