@@ -6,7 +6,7 @@
 
 ## 📖 ¿Qué es ilyOS?
 
-ilyOS es la configuración que uso a diario, empaquetada en un playbook de AME Wizard y lista para aplicar. Este *OS* busca tanto velocidad **como** ligereza, sin dejar de tener en cuenta el minimalismo y la comodidad del uso. La idea es simple: cada cambio del playbook viene de cómo yo trabajo con el sistema a diario, es decir, decisiones basadas en el uso real, no en la lista de cosas que se podrían desactivar por el mero hecho de hacerlo.
+ilyOS es la configuración que uso a diario, empaquetada en un playbook de AME Wizard y lista para aplicar. Este *OS* busca tanto velocidad **como** ligereza, sin dejar de tener en cuenta el minimalismo y la comodidad del uso. La idea es simple: cada cambio del playbook viene de cómo yo trabajo con el sistema a diario, es decir, decisiones basadas en el uso real, no en la lista de cosas que *podrían desactivarse* por el mero hecho de hacerlo.
 
 ## 💭 Filosofía
 
@@ -27,8 +27,8 @@ ilyOS sigue la simple filosofía de tener un equipo configurado y basado en las 
 
 ## 🔧 Requisitos
 
-- Versión más reciente de Windows 11. Se recomienda que el sistema esté completamente formateado para la instalación.
-- Playbook oficial de ilyOS. Por favor, nunca descargues una versión fuera de mis enlaces de descarga.
+- Versión más reciente de **Windows 11**. Se recomienda que el sistema esté completamente formateado para la instalación.
+- **Playbook oficial de ilyOS**. Por favor, nunca descargues una versión fuera de mis enlaces de descarga.
 - [AME Wizard](https://ameliorated.io), es la aplicación que ejecuta el playbook.
 
 ## ⬇️ Instalación
